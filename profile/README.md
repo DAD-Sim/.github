@@ -1,8 +1,8 @@
 ## Hi there 👋
 
-Welcome to the DAD-Sim team. The DAD-Sim is the abbreviation of **D**istributed **A**utonomous **D**riving **Sim**ulator, which is designed as a modular, distributed autonomous driving simulator with the following features:
+Welcome to the DADSim team. The DADSim is the abbreviation of **D**istributed **A**utonomous **D**riving **Sim**ulator, which is designed as a modular, distributed autonomous driving simulator with the following features:
 
-- Modularity: DAD-Sim is crafted as a set of packages running on ROS2, with each functionality provided by one or more nodes that can be tailored as needed.
+- Modularity: DADSim is crafted as a set of packages running on ROS2, with each functionality provided by one or more nodes that can be tailored as needed.
 - Distribution: Agents are positioned on an equal footing, distributed as ROS nodes.
 - Clock Synchronization: A centralized time server is responsible for disseminating simulation time. The time promise/fulfillment mechanism ensures the synchronization of node clocks and patiently waits for slower nodes to complete computations when necessary.
 
